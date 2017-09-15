@@ -1,0 +1,75 @@
+:global {
+    // global style here
+    .logo-spin {
+        animation: App-logo-spin infinite 3s linear;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: ghostwhite;
+        position: absolute;
+        width:100%;
+        height: 100%;
+    }
+    .container form{
+        flex: 1 500px;
+        width: 500px;
+        max-width: 500px;
+        background: white;
+        padding: 20px;
+    }
+    .logo{
+        width: 180px;
+        margin: 20px auto 20px auto;
+    }
+    .input-box{
+        width: 350px;
+        margin: 20px auto 20px auto;
+    }
+    .input-box label{
+        display: block;
+        text-align: left;
+    }
+    .input-box input{
+        display: block;
+        border-radius: 1rem;
+        color:#242526;
+        width: 100%;
+        height: 25px;
+    }
+    .input-box input:focus{
+        border:1px solid #242526;
+    }
+    .btn-submit{
+        width: 150px;
+        height: 40px;
+        background: deepskyblue;
+        border-radius: 5px;
+        display: block;
+        margin: 20px auto 20px auto;
+        border: none;
+        color:ghostwhite;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .row a{
+        color: deepskyblue;
+        text-decoration: none;
+    }
+    .row a:hover{
+        text-decoration: underline;
+    }
+
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
